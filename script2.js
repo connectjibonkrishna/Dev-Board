@@ -1,5 +1,5 @@
 document
 .getElementById("backToDesk-btn")
-.addEventListener("click", function (event) {
+.addEventListener("click", function () {
   window.location.href = "index.html";
 });
