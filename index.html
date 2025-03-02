@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevBoard</title>
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -43,7 +43,7 @@
     <nav class="w-11/12 mx-auto pt-5 drop-shadow-md">
       <div class="navbar bg-white rounded-2xl p-6 mb-5">
         <div class="flex-1 gap-2 text-4xl">
-          <img src="assets/logo.png" alt="DevBoard Logo"/>
+          <img src="assets/logo.png" alt="DevBoard Logo" />
           <p>Dev<span class="font-bold">Board</span></p>
         </div>
         <div class="flex gap-7">
@@ -78,11 +78,12 @@
             </div>
             <div>
               <p class="text-xs font-medium">Task Assigned</p>
-              <p id="task-count"  class="text-3xl font-bold">6</p>
+              <p id="task-count" class="task-count text-3xl font-bold">6</p>
             </div>
           </div>
           <div
-          id="discover-box" class="flex basis-2/4 rounded-xl bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] py-5 px-6 drop-shadow-md cursor-pointer hover:brightness-90"
+            id="discover-box"
+            class="flex basis-2/4 rounded-xl bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] py-5 px-6 drop-shadow-md cursor-pointer hover:brightness-90"
           >
             <div class="flex gap-5 items-center">
               <img src="assets/board.png" alt="board" />
@@ -114,7 +115,7 @@
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
               Shop Ease
             </p>
-            <p class="text-2xl font-medium">Fix Mobile Button Issue</p>
+            <p id="card-title" class="text-2xl font-medium">Fix Mobile Button Issue</p>
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
               A card component has a figure, a body part, and inside body there
               are title and actions parts.
@@ -125,7 +126,8 @@
                 <p class="text-base font-medium">21 March 2025</p>
               </div>
               <button
-                id="board-btn" class="btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
+                id="board-btn"
+                class="board-btn btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
               >
                 Completed
               </button>
@@ -137,9 +139,9 @@
             class="bg-green-100 p-6 space-y-4 rounded-xl drop-shadow-md"
           >
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
-              Shop Ease
+              Soft Pay
             </p>
-            <p class="text-2xl font-medium">Fix Mobile Button Issue</p>
+            <p id="card-title" class="text-2xl font-medium">Add Pay Success Modle</p>
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
               A card component has a figure, a body part, and inside body there
               are title and actions parts.
@@ -147,10 +149,11 @@
             <div class="flex justify-between">
               <div>
                 <p class="text-sm">Deadline</p>
-                <p class="text-base font-medium">21 March 2025</p>
+                <p class="text-base font-medium">25 March 2025</p>
               </div>
               <button
-                class="btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
+                id="board-btn"
+                class="board-btn btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
               >
                 Completed
               </button>
@@ -162,9 +165,9 @@
             class="bg-green-100 p-6 space-y-4 rounded-xl drop-shadow-md"
           >
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
-              Shop Ease
+              Meta
             </p>
-            <p class="text-2xl font-medium">Fix Mobile Button Issue</p>
+            <p id="card-title" class="text-2xl font-medium">Add New Reaction</p>
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
               A card component has a figure, a body part, and inside body there
               are title and actions parts.
@@ -172,10 +175,11 @@
             <div class="flex justify-between">
               <div>
                 <p class="text-sm">Deadline</p>
-                <p class="text-base font-medium">21 March 2025</p>
+                <p class="text-base font-medium">31 March 2025</p>
               </div>
               <button
-                class="btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
+                id="board-btn"
+                class="board-btn btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
               >
                 Completed
               </button>
@@ -187,9 +191,9 @@
             class="bg-green-100 p-6 space-y-4 rounded-xl drop-shadow-md"
           >
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
-              Shop Ease
+              Programming Hero
             </p>
-            <p class="text-2xl font-medium">Fix Mobile Button Issue</p>
+            <p id="card-title" class="text-2xl font-medium">Fix Video Loading Issue</p>
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
               A card component has a figure, a body part, and inside body there
               are title and actions parts.
@@ -200,7 +204,8 @@
                 <p class="text-base font-medium">21 March 2025</p>
               </div>
               <button
-                class="btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
+                id="board-btn"
+                class="board-btn btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
               >
                 Completed
               </button>
@@ -212,9 +217,9 @@
             class="bg-green-100 p-6 space-y-4 rounded-xl drop-shadow-md"
           >
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
-              Shop Ease
+              Google LLC
             </p>
-            <p class="text-2xl font-medium">Fix Mobile Button Issue</p>
+            <p id="card-title" class="text-2xl font-medium">Integrate AI Search</p>
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
               A card component has a figure, a body part, and inside body there
               are title and actions parts.
@@ -222,10 +227,11 @@
             <div class="flex justify-between">
               <div>
                 <p class="text-sm">Deadline</p>
-                <p class="text-base font-medium">21 March 2025</p>
+                <p class="text-base font-medium">01 April 2025</p>
               </div>
               <button
-                class="btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
+                id="board-btn"
+                class="board-btn btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
               >
                 Completed
               </button>
@@ -237,9 +243,9 @@
             class="bg-green-100 p-6 space-y-4 rounded-xl drop-shadow-md"
           >
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
-              Shop Ease
+              Polygon Tech
             </p>
-            <p class="text-2xl font-medium">Fix Mobile Button Issue</p>
+            <p id="card-title" class="text-2xl font-medium">Review Ami Probashi Site</p>
             <p class="text-base bg-white inline-block px-4 py-2 rounded-lg">
               A card component has a figure, a body part, and inside body there
               are title and actions parts.
@@ -247,10 +253,11 @@
             <div class="flex justify-between">
               <div>
                 <p class="text-sm">Deadline</p>
-                <p class="text-base font-medium">21 March 2025</p>
+                <p class="text-base font-medium">O5 May 2025</p>
               </div>
               <button
-                class="btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
+                id="board-btn"
+                class="board-btn btn text-base font-medium rounded-lg bg-[#3752FD] py-3 px-5 text-white drop-shadow-md"
               >
                 Completed
               </button>
@@ -275,9 +282,14 @@
           </div>
         </div>
         <hr class="my-3 border-dashed" />
+
+        <div id="history-container">
+          <div id="div">
+
+          </div>
+        </div>
       </div>
     </main>
-
 
     <script src="script.js"></script>
     <script src="script2.js"></script>
